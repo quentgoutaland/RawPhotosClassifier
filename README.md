@@ -17,8 +17,19 @@
 
 ## Dataset
 The dataset was built using a Flickr API (`flickr.py`).
+To execute the script:
+```
+python3 flickr.py search_term class_folder number_photos_to_retrieve
+```
 
+Initially $20000$ photos were gathered with this method and after cleansing misclassified and corrupted photos, the dataset was composed of $14737$ photos.
+
+A 80-20 repartition is used to form the training and validation set, respectively. 
 
 ## Model training
+The base model is MobileNetv2 trained on imagenet (choosed for its lightweightness, running well on a laptop without GPU).
+The weights are freezed and the head added is a softmax.
+ 
 
 ## Results
+![image](accuracy_loss.pdf)
