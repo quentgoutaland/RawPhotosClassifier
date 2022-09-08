@@ -40,4 +40,5 @@ The weights are freezed and the head added is a softmax.
 <!--  ![My Caption](accuracy_loss.jpg){width="300" style="text-align: center"} -->
 <p align="center">
 <img src="accuracy_loss.jpg" width="300" class="center">
+<p align="center" Fig.>
 </p>
