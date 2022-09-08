@@ -32,9 +32,9 @@ The weights are freezed and the head added is a softmax.
  
 
 ## Results
-<figure style="text-align: center">
+<figure style="text-align: center;">
     <img src="accuracy_loss.jpg" width="300" style="text-align: center;">
-    <figcaption style="text-align: center">Accuracy and loss evolution of the training and validation sets.</figcaption>
+    <figcaption style="text-align: center;">Accuracy and loss evolution of the training and validation sets.</figcaption>
 </figure>
 
 <!--  ![My Caption](accuracy_loss.jpg){width="300" style="text-align: center"} -->
