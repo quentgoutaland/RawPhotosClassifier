@@ -32,4 +32,4 @@ The weights are freezed and the head added is a softmax.
  
 
 ## Results
-![accuracy](accuracy_loss.jpg)
+![accuracy](accuracy_loss.jpg | width=30)
