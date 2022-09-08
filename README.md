@@ -31,10 +31,18 @@ The base model is MobileNetv2 trained on imagenet (choosed for its lightweightne
 The weights are freezed and the head added is a softmax.
  
  The training steps are presented in `Classifier_training.ipynb`.
+ 
  The trained model is in the folder `photos_classifier`.
 <p align="center">
 <img src="accuracy_loss.jpg" width="350" class="center">
 <p align="center"> Accuracy and Loss evolution of the training and validation sets </p>
 </p>
+
+## Application
+
+The model can then be applied on a folder (*folder_name*)using 
+```
+python3 set_category folder_name
+```
 
 
