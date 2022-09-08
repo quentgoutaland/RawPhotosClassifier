@@ -30,6 +30,8 @@ A 80-20 repartition is used to form the training and validation set, respectivel
 The base model is MobileNetv2 trained on imagenet (choosed for its lightweightness, running well on a laptop without GPU).
 The weights are freezed and the head added is a softmax.
  
+ The training steps are presented in `Classifier_training.ipynb`.
+ The trained model is in the folder `photos_classifier`.
 <p align="center">
 <img src="accuracy_loss.jpg" width="350" class="center">
 <p align="center"> Accuracy and Loss evolution of the training and validation sets </p>
