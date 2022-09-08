@@ -45,4 +45,5 @@ The model can then be applied on a folder (*folder_name*)using
 python3 set_category folder_name
 ```
 
+The predicted category is written in the exif column *Description*.
 
