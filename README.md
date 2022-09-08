@@ -35,5 +35,4 @@ The weights are freezed and the head added is a softmax.
 <p align="center"> Accuracy and Loss evolution of the training and validation sets </p>
 </p>
 
-## Results
 
