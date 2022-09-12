@@ -2,8 +2,8 @@
     <blockquote> 
         The goal of this project is to classify camera photos using transfer learning from mobileNetV2 trained on imagenet. Each photo is labeled (in its exifs) with one class among 10 possible: 
         <ul>
-            <li> Architecture
             <li> Animal
+            <li> Architecture
             <li> Astrophotography
             <li> Landscape
             <li> Macrophotography
